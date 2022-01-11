@@ -2,6 +2,8 @@ const express = require("express");
 const { Issuer, generators } = require("openid-client");
 
 const app = express();
+
+//Replace these placeholder values with your desired client ID, secret, and provider.
 const providerUrl = "about:blank";
 const clientId = "client-id";
 const clientSecret = "client-secret";
